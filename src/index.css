@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base { 
+    :root { 
+        /*  8B8C91*/
+        /* EA6561 */
+        --font-family:'Lato', sans-serif; ;
+        --main-white: #FFFFFF;
+        --secondary-white: #F6F6F6;
+        --main-blue: #005CE5 ;
+        --gray: #9E9E9E;
+        --red: #FF342D; 
+    }
+    .title { 
+        @apply text-xl font-bold mb-14 relative before:content-[''] before:absolute before:w-[40%] before:top-[140%] before:left-[30%] before:bg-gradient-to-r  from-white via-zinc-500 to-white from-0% to-100% before:h-[3px] ;
+    }
+    .transition { 
+        @apply transition-all duration-150;
+    }
+}

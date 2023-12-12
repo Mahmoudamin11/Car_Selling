@@ -1,0 +1,108 @@
+{
+    "merceds": [
+      {
+        "brand": "Mercedes-Benz",
+        "model": "A Class",
+        "price": "10000$",
+        "year" : 2023
+      },
+      {
+        "brand": "Mercedes-Benz",
+        "model": "AMG GT",
+        "price": "50000$",
+        "year": 2022
+      },
+      {
+        "brand": "Mercedes-Benz",
+        "model": "CLA",
+        "price": "15000$",
+        "year": 2021
+      },
+      {
+        "brand": "Mercedes-Benz",
+        "model": "CLS",
+        "price": "30000$",
+        "year": 2019
+      }
+      
+    ],
+    "toyota":[
+        {
+            "brand": "Toyota",
+            "model": "Camry",
+            "price": "25000$",
+            "year": 2015
+          },
+        {
+            "brand": "Toyota",
+            "model": "Corolla",
+            "price": "25000$",
+            "year": 2023
+          },
+        {
+            "brand": "Toyota",
+            "model": "Prius",
+            "price": "25000$",
+            "year": 2020
+          },
+        {
+            "brand": "Toyota",
+            "model": "Rav4",
+            "price": "25000$",
+            "year": 2017
+          }
+    ],
+    "bmw": [
+      {
+        "brand": "Bmw",
+        "model": "8 Series",
+        "price": "10000$",
+        "year": 2023
+      },
+      {
+        "brand": "Bmw",
+        "model": "IX",
+        "price": "50000$",
+        "year": 2021
+      },
+      {
+        "brand": "Bmw",
+        "model": "M2",
+        "price": "15000$",
+        "year": 2023
+      },
+      {
+        "brand": "Bmw",
+        "model": "X6",
+        "price": "30000$",
+        "year": 2023
+      }
+      
+    ],
+    "audi":[
+        {
+            "brand": "Audi",
+            "model": "A4",
+            "price": "25000$",
+            "year": 2022
+          },
+        {
+            "brand": "Audi",
+            "model": "E-tron GT",
+            "price": "25000$",
+            "year": 2023
+          },
+        {
+            "brand": "Audi",
+            "model": "Q3",
+            "price": "25000$",
+            "year": 2020
+          },
+        {
+            "brand": "Audi",
+            "model": "R8",
+            "price": "28000$",
+            "year": 2023
+          }
+    ]
+}
