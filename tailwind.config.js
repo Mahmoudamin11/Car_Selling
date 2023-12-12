@@ -53,7 +53,6 @@ export default {
         'callUs': "url('./src/assets/buyOrChange.jpg')",
         'footer': "url('./src/assets/Component 1.png')",
         'appointment': "url('./src/assets/park.jpg')"
-        // try to make the buy appointment section
       },
       screens: { 
         'mini-md': '690px',

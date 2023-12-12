@@ -4,55 +4,55 @@ const FreshLaunches = () => {
     const [carsData, setCarsData] = useState([{
         "brand": "Toyota",
         "model": "Avalon",
-        "img" : "../../public/imgs/freshLaunches/Toyota Avalon.png",
+        "img" : "./public/imgs/freshLaunches/Toyota Avalon.png",
         "price": "15000$",
         "year": 2023
       },
       {
         "brand": "Toyota",
         "model": "GR86",
-        "img" : "../../public/imgs/freshLaunches/toyota gr86.png",
+        "img" : "./public/imgs/freshLaunches/toyota gr86.png",
         "price": "35000$",
         "year": 2022
       },
       {
         "brand": "Toyota",
         "model": "Highlander",
-        "img" : "../../public/imgs/freshLaunches/toyota highlander.webp",
+        "img" : "./public/imgs/freshLaunches/toyota highlander.webp",
         "price": "22000$",
         "year": 2017
       },
       {
         "brand": "Toyota",
         "model": "Crown",
-        "img" : "../../public/imgs/freshLaunches/toyota crown.webp",
+        "img" : "./public/imgs/freshLaunches/toyota crown.webp",
         "price": "33000$",
         "year": 2023
       },{
         "brand": "Audi",
         "model": "Q7",
-        "img" : "../../public/imgs/freshLaunches/audi q7.png",
+        "img" : "./public/imgs/freshLaunches/audi q7.png",
         "price": "25000$",
         "year": 2023
       },
     {
         "brand": "Audi",
         "model": "T/T",
-        "img" : "../../public/imgs/freshLaunches/audi tt.png",
+        "img" : "./public/imgs/freshLaunches/audi tt.png",
         "price": "27000$",
         "year": 2023
       },
     {
         "brand": "Audi",
         "model": "Q8",
-        "img" : "../../public/imgs/freshLaunches/audi q8.webp",
+        "img" : "./public/imgs/freshLaunches/audi q8.webp",
         "price": "25000$",
         "year": 2020
       },
     {
         "brand": "Audi",
         "model": "T/T",
-        "img" : "../../public/imgs/freshLaunches/audi tt.png",
+        "img" : "./public/imgs/freshLaunches/audi tt.png",
         "price": "27000$",
         "year": 2023
       }])
