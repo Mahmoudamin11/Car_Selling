@@ -15,28 +15,28 @@ const FilterCars = () => {
           {
             "brand": "Mercedes",
             "model": "A Class",
-            "img" : './public/imgs/mercedes/a-class.png',
+            "img" : 'public/imgs/mercedes/a-class.png',
             "price": "10000$",
             "year" : 2023
           },
           {
             "brand": "Mercedes",
             "model": "AMG GT",
-            "img" : "./public/imgs/mercedes/amg gt.png",
+            "img" : "public/imgs/mercedes/amg gt.png",
             "price": "50000$",
             "year": 2022
           },
           {
             "brand": "Mercedes",
             "model": "CLA",
-            "img" : "./public/imgs/mercedes/cla.png",
+            "img" : "public/imgs/mercedes/cla.png",
             "price": "15000$",
             "year": 2021
           },
           {
             "brand": "Mercedes",
             "model": "CLS",
-            "img" : "./public/imgs/mercedes/cls.png",
+            "img" : "public/imgs/mercedes/cls.png",
             "price": "30000$",
             "year": 2019
           }
@@ -46,28 +46,28 @@ const FilterCars = () => {
             {
                 "brand": "Toyota",
                 "model": "Camry",
-                "img" : "./public/imgs/toyota/camry.png",
+                "img" : "public/imgs/toyota/camry.png",
                 "price": "25000$",
                 "year": 2015
               },
             {
                 "brand": "Toyota",
                 "model": "Corolla",
-                "img" : "./public/imgs/toyota/corolla.png",
+                "img" : "public/imgs/toyota/corolla.png",
                 "price": "25000$",
                 "year": 2023
               },
             {
                 "brand": "Toyota",
                 "model": "Prius",
-                "img" : "./public/imgs/toyota/prius.png",
+                "img" : "public/imgs/toyota/prius.png",
                 "price": "25000$",
                 "year": 2020
               },
             {
                 "brand": "Toyota",
                 "model": "Rav4",
-                "img" : "./public/imgs/toyota/rav4.png",
+                "img" : "public/imgs/toyota/rav4.png",
                 "price": "25000$",
                 "year": 2017
               }
@@ -76,28 +76,28 @@ const FilterCars = () => {
           {
             "brand": "Bmw",
             "model": "8 Series",
-            "img" : "./public/imgs/bmw/bmw 8 series.png",
+            "img" : "public/imgs/bmw/bmw 8 series.png",
             "price": "10000$",
             "year": 2023
           },
           {
             "brand": "Bmw",
             "model": "IX",
-            "img" : "./public/imgs/bmw/bmw ix 2023.png",
+            "img" : "public/imgs/bmw/bmw ix 2023.png",
             "price": "50000$",
             "year": 2021
           },
           {
             "brand": "Bmw",
             "model": "M2",
-            "img" : "./public/imgs/bmw/bmw m2 coupe.png",
+            "img" : "public/imgs/bmw/bmw m2 coupe.png",
             "price": "15000$",
             "year": 2023
           },
           {
             "brand": "Bmw",
             "model": "X6",
-            "img" : "./public/imgs/bmw/bmw x6 2023.png",
+            "img" : "public/imgs/bmw/bmw x6 2023.png",
             "price": "30000$",
             "year": 2023
           }
@@ -107,7 +107,7 @@ const FilterCars = () => {
             {
                 "brand": "Audi",
                 "model": "A4",
-                "img" : "./public/imgs/audi/audi a4 2023.png",
+                "img" : "public/imgs/audi/audi a4 2023.png",
                 "price": "25000$",
                 "year": 2022
               },
