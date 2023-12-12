@@ -34,7 +34,6 @@ export default {
           '50%' : {'transform':'translateX(0px)'},
           '75%' : {'transform':'translateX(-2px)'},
           '100%' : {'transform':'translateX(0)'},
-
         },
         client: { 
           '0%' : {'border-top-left-radius-': '150px'},
