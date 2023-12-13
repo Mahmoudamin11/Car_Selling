@@ -1,4 +1,8 @@
 import { useState } from "react";
+import aclass from '../assets/mercedes/a-class.png';
+import amgGT from '../assets/mercedes/amg gt.png';
+import cla from '../assets/mercedes/cla.png';
+import cls from '../assets/mercedes/cls.png';
 
 const FilterCars = () => {
   const options = [
@@ -15,28 +19,28 @@ const FilterCars = () => {
           {
             "brand": "Mercedes",
             "model": "A Class",
-            "img" : './src/assets/mercedes/a-class.png',
+            "img" : aclass,
             "price": "10000$",
             "year" : 2023
           },
           {
             "brand": "Mercedes",
             "model": "AMG GT",
-            "img" : "./src/assets/mercedes/amg gt.png",
+            "img" : amgGT,
             "price": "50000$",
             "year": 2022
           },
           {
             "brand": "Mercedes",
             "model": "CLA",
-            "img" : "./src/assets/mercedes/cla.png",
+            "img" : cla,
             "price": "15000$",
             "year": 2021
           },
           {
             "brand": "Mercedes",
             "model": "CLS",
-            "img" : "./src/assets/mercedes/cls.png",
+            "img" : cls,
             "price": "30000$",
             "year": 2019
           }
