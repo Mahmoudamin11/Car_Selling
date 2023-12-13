@@ -1,58 +1,65 @@
 import {useState} from 'react';
+import avalon from "/src/assets/freshLaunches/Toyota Avalon.png";
+import gr86 from "/src/assets/freshLaunches/toyota gr86.png";
+import highlander from "/src/assets/freshLaunches/toyota highlander.webp";
+import crown from "/src/assets/freshLaunches/toyota crown.webp";
+import q7 from "/src/assets/freshLaunches/audi q7.png";
+import tt from "/src/assets/freshLaunches/audi tt.png";
+import q8 from "/src/assets/freshLaunches/audi q8.webp";
 const FreshLaunches = () => {
 
     const [carsData, setCarsData] = useState([{
         "brand": "Toyota",
         "model": "Avalon",
-        "img" : "url('/src/assets/freshLaunches/Toyota Avalon.png')",
+        "img" : avalon,
         "price": "15000$",
         "year": 2023
       },
       {
         "brand": "Toyota",
         "model": "GR86",
-        "img" : "url('/src/assets/freshLaunches/toyota gr86.png')",
+        "img" : gr86,
         "price": "35000$",
         "year": 2022
       },
       {
         "brand": "Toyota",
         "model": "Highlander",
-        "img" : "url('/src/assets/freshLaunches/toyota highlander.webp')",
+        "img" : highlander,
         "price": "22000$",
         "year": 2017
       },
       {
         "brand": "Toyota",
         "model": "Crown",
-        "img" : "url('/src/assets/freshLaunches/toyota crown.webp')",
+        "img" : crown,
         "price": "33000$",
         "year": 2023
       },{
         "brand": "Audi",
         "model": "Q7",
-        "img" : "url('/src/assets/freshLaunches/audi q7.png')",
+        "img" : q7,
         "price": "25000$",
         "year": 2023
       },
     {
         "brand": "Audi",
         "model": "T/T",
-        "img" : "url('/src/assets/freshLaunches/audi tt.png')",
+        "img" : tt,
         "price": "27000$",
         "year": 2023
       },
     {
         "brand": "Audi",
         "model": "Q8",
-        "img" : "url('/src/assets/freshLaunches/audi q8.webp')",
+        "img" : q8,
         "price": "25000$",
         "year": 2020
       },
     {
         "brand": "Audi",
         "model": "T/T",
-        "img" : "url('/src/assets/freshLaunches/audi tt.png')",
+        "img" : tt,
         "price": "27000$",
         "year": 2023
       }])

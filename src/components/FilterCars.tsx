@@ -1,4 +1,24 @@
 import { useState } from "react";
+// mercedes
+import a_class from '/src/assets/mercedes/a-class.png';
+import amg_gt from '/src/assets/mercedes/amg gt.png';
+import cla from '/src/assets/mercedes/cla.png';
+import cls from '/src/assets/mercedes/cls.png';
+// toyota
+import camry from '/src/assets/toyota/camry.png';
+import corolla from '/src/assets/toyota/corolla.png';
+import prius from '/src/assets/toyota/prius.png';
+import rav4 from '/src/assets/toyota/rav4.png';
+// bmw
+import series8 from '/src/assets/bmw/bmw 8 series.png';
+import ix from '/src/assets/bmw/bmw ix 2023.png';
+import m2 from '/src/assets/bmw/bmw m2 coupe.png';
+import x6 from '/src/assets/bmw/bmw x6 2023.png';
+// audi
+import a4 from '/src/assets/audi/audi a4 2023.png';
+import etron_gt from '/src/assets/audi/audi e-tron gt 2023.png';
+import q3 from '/src/assets/audi/audi q3 2023.png';
+import r8 from '/src/assets/audi/audi r8 2023.png';
 
 const FilterCars = () => {
   const options = [
@@ -15,28 +35,28 @@ const FilterCars = () => {
           {
             "brand": "Mercedes",
             "model": "A Class",
-            "img" : "url('/src/assets/mercedes/a-class.png')",
+            "img" : a_class,
             "price": "10000$",
             "year" : 2023
           },
           {
             "brand": "Mercedes",
             "model": "AMG GT",
-            "img" : "url('/src/assets/mercedes/amg gt.png')",
+            "img" : amg_gt,
             "price": "50000$",
             "year": 2022
           },
           {
             "brand": "Mercedes",
             "model": "CLA",
-            "img" : "url('/src/assets/mercedes/cla.png')",
+            "img" : cla,
             "price": "15000$",
             "year": 2021
           },
           {
             "brand": "Mercedes",
             "model": "CLS",
-            "img" : "url('/src/assets/mercedes/cls.png')",
+            "img" : cls,
             "price": "30000$",
             "year": 2019
           }
@@ -46,28 +66,28 @@ const FilterCars = () => {
             {
                 "brand": "Toyota",
                 "model": "Camry",
-                "img" : "url('/src/assets/toyota/camry.png')",
+                "img" : camry,
                 "price": "25000$",
                 "year": 2015
               },
             {
                 "brand": "Toyota",
                 "model": "Corolla",
-                "img" : "url('/src/assets/toyota/corolla.png')",
+                "img" : corolla,
                 "price": "25000$",
                 "year": 2023
               },
             {
                 "brand": "Toyota",
                 "model": "Prius",
-                "img" : "url('/src/assets/toyota/prius.png')",
+                "img" : prius,
                 "price": "25000$",
                 "year": 2020
               },
             {
                 "brand": "Toyota",
                 "model": "Rav4",
-                "img" : "url('/src/assets/toyota/rav4.png')",
+                "img" : rav4,
                 "price": "25000$",
                 "year": 2017
               }
@@ -76,28 +96,28 @@ const FilterCars = () => {
           {
             "brand": "Bmw",
             "model": "8 Series",
-            "img" : "url('/src/assets/bmw/bmw 8 series.png')",
+            "img" : series8,
             "price": "10000$",
             "year": 2023
           },
           {
             "brand": "Bmw",
             "model": "IX",
-            "img" : "url('/src/assets/bmw/bmw ix 2023.png')",
+            "img" : ix,
             "price": "50000$",
             "year": 2021
           },
           {
             "brand": "Bmw",
             "model": "M2",
-            "img" : "url('/src/assets/bmw/bmw m2 coupe.png')",
+            "img" : m2,
             "price": "15000$",
             "year": 2023
           },
           {
             "brand": "Bmw",
             "model": "X6",
-            "img" : "url('/src/assets/bmw/bmw x6 2023.png')",
+            "img" : x6,
             "price": "30000$",
             "year": 2023
           }
@@ -107,28 +127,28 @@ const FilterCars = () => {
             {
                 "brand": "Audi",
                 "model": "A4",
-                "img" : "url('/src/assets/audi/audi a4 2023.png')",
+                "img" : a4,
                 "price": "25000$",
                 "year": 2022
               },
             {
                 "brand": "Audi",
                 "model": "E-tron GT",
-                "img" : "url('/src/assets/audi/audi e-tron gt 2023.png')",
+                "img" : etron_gt,
                 "price": "25000$",
                 "year": 2023
               },
             {
                 "brand": "Audi",
                 "model": "Q3",
-                "img" : "url('/src/assets/audi/audi q3 2023.png')",
+                "img" : q3,
                 "price": "25000$",
                 "year": 2020
               },
             {
                 "brand": "Audi",
                 "model": "R8",
-                "img" : "url('/src/assets/audi/audi r8 2023.png')",
+                "img" : r8,
                 "price": "28000$",
                 "year": 2023
               }

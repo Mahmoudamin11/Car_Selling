@@ -1,10 +1,14 @@
 import {useState} from 'react';
+import pic1 from "/src/assets/humans/pic1.png";
+import pic2 from "/src/assets/humans/pic2.png";
+import pic3 from "/src/assets/humans/pic3.png";
+import pic4 from "/src/assets/humans/pic4.png";
 const ClientsSay = () => {
     const [clients, setClients] = useState([
-        {'img': "url('/src/assets/humans/pic1.png')", 'name': 'Thomas A.', 'address': 'Luxomborg'},
-        {'img': "url('/src/assets/humans/pic2.png')", 'name': 'Jhon D.', 'address': 'Las vegas'},
-        {'img': "url('/src/assets/humans/pic3.png')", 'name': 'Daniel T.', 'address': 'California'},
-        {'img': "url('/src/assets/humans/pic4.png')", 'name': 'George H.', 'address': 'London'},
+        {'img': pic1, 'name': 'Thomas A.', 'address': 'Luxomborg'},
+        {'img': pic2, 'name': 'Jhon D.', 'address': 'Las vegas'},
+        {'img': pic3, 'name': 'Daniel T.', 'address': 'California'},
+        {'img': pic4, 'name': 'George H.', 'address': 'London'},
     ]);
   return (
     <div className=' w-full mx-auto relative max-[450px]:bg-center bg-clientsSay bg-cover'>
