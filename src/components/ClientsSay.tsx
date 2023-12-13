@@ -18,7 +18,7 @@ const ClientsSay = () => {
                         <div id='card' className='bg-main-blue w-[90%] z-30 group  relative shadow-card  transition-all duration-150'>
                             <div className='bg-white w-full h-full p-[8%] group-hover:p-5  rounded-tl-[150px]  transition-all duration-150 group-hover:rounded-none group-hover:shadow-2xl'>
                                 <div className='flex gap-1'>
-                                    <img src={clients[index].img} className='rounded-full border-2 border-solid border-white' alt="" />
+                                    <img src={window.location.origin + clients[index].img} className='rounded-full border-2 border-solid border-white' alt="" />
                                     <article className='flex flex-col justify-center'>
                                         <p className='font-bold'>{clients[index].name}</p>
                                         <p className='text-gray text-xs'>{clients[index].address}</p>

@@ -1,8 +1,4 @@
 import { useState } from "react";
-import aclass from '../assets/mercedes/a-class.png';
-import amgGT from '../assets/mercedes/amg gt.png';
-import cla from '../assets/mercedes/cla.png';
-import cls from '../assets/mercedes/cls.png';
 
 const FilterCars = () => {
   const options = [
@@ -19,28 +15,28 @@ const FilterCars = () => {
           {
             "brand": "Mercedes",
             "model": "A Class",
-            "img" : aclass,
+            "img" : './src/assets/mercedes/a-class.png',
             "price": "10000$",
             "year" : 2023
           },
           {
             "brand": "Mercedes",
             "model": "AMG GT",
-            "img" : amgGT,
+            "img" : "./src/assets/mercedes/amg gt.png",
             "price": "50000$",
             "year": 2022
           },
           {
             "brand": "Mercedes",
             "model": "CLA",
-            "img" : cla,
+            "img" : "./src/assets/mercedes/cla.png",
             "price": "15000$",
             "year": 2021
           },
           {
             "brand": "Mercedes",
             "model": "CLS",
-            "img" : cls,
+            "img" : "./src/assets/mercedes/cls.png",
             "price": "30000$",
             "year": 2019
           }
@@ -182,8 +178,8 @@ const FilterCars = () => {
                           {carComp != 'select' && <div id="price" className={width <= 450 ? "text-sm text-gray hover:text-black transition font-bold" : " w-[30%] max-[530px]:text-sm max-[476px]:text-xs text-center h-[32px] py-1 px-1 bg-red text-white"}>{carsData[carComp as keyof typeof carsData][index].price}</div>}
                           {carComp == 'select' && <div id="price" className={width <= 450 ? "text-sm text-gray hover:text-black transition font-bold" : " w-[30%] max-[530px]:text-sm max-[476px]:text-xs text-center h-[32px] py-1 px-1 bg-red text-white"}>{carsData[carNames[index] as keyof typeof carsData][rand].price}</div>}
                         </div>
-                        {carComp != 'select' && <img src={carsData[carComp as keyof typeof carsData][index].img} alt="" className=" mx-auto w-3/4 h-1/2 transform transition group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:drop-shadow-xl" />}
-                        {carComp == 'select' && <img src={carsData[carNames[index] as keyof typeof carsData][rand].img} alt="" className=" mx-auto w-3/4 h-1/2 transform transition group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:drop-shadow-xl" />}
+                        {carComp != 'select' && <img src={window.location.origin +  carsData[carComp as keyof typeof carsData][index].img} alt="" className=" mx-auto w-3/4 h-1/2 transform transition group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:drop-shadow-xl" />}
+                        {carComp == 'select' && <img src={ window.location.origin + carsData[carNames[index] as keyof typeof carsData][rand].img} alt="" className=" mx-auto w-3/4 h-1/2 transform transition group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:drop-shadow-xl" />}
                         {carComp != 'select' && <div id="otherData" className="font-bold text-sm text-gray hover:text-black w-fit">{carsData[carComp as keyof typeof carsData][index].year} Automatic</div>}
                         {carComp == 'select' && <div id="otherData" className="font-bold text-sm text-gray hover:text-black w-fit">{carsData[carNames[index] as keyof typeof carsData][rand].year} Automatic</div>}
                     </div>

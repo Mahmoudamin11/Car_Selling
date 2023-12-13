@@ -76,7 +76,7 @@ const FreshLaunches = () => {
                           {<div id="model" className="font-bold max-[530px]:text-sm">{carsData[index].brand  + " " +  carsData[index].model}</div>}
                           {<div id="price" className={"text-sm text-red hover:text-gray transition-all duration-150 font-bold" }>{carsData[index].price}</div>}
                         </div>
-                        {<img src={carsData[index].img} alt="" className=" mx-auto w-3/4 h-1/2 transform transition-all duration-150 group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:drop-shadow-xl" />}
+                        {<img src={window.location.origin + carsData[index].img} alt="" className=" mx-auto w-3/4 h-1/2 transform transition-all duration-150 group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:drop-shadow-xl" />}
                         {<div id="otherData" className="font-bold text-sm max-[428px]:text-xs text-gray  flex justify-evenly w-full relative before:content-[''] before:absolute before:w-3/4  before:top-[150%] before:left-[12.5%] before:bg-gradient-to-r  from-white via-zinc-500 to-white from-0% to-100% before:h-[2px]"><span>{carsData[index].year}</span> <span>Automatic</span> <span>Petrol</span></div>}
                         <div id='buttons' className=' w-full flex justify-around mt-3'>
                             <button className='bg-main-blue text-sm max-[428px]:text-xs hover:opacity-[80%] text-white cursor-pointer rounded-md py-1 px-3 max-[428px]:px-2 transition-all duration-150 transform hover:-trasnalte-y-[0.5px]'>Test Drive</button>
