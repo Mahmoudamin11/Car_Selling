@@ -47,11 +47,11 @@ export default {
         'clientCard' : 'client 4s linear infinite',
       },
       backgroundImage: { 
-        'buyOrExcahnge': "url('src/assets/white park.jpg')",
-        'clientsSay': "url('src/assets/tier.jpg')",
-        'callUs': "url('src/assets/buyOrChange.jpg')",
-        'footer': "url('src/assets/Component 1.png')",
-        'appointment': "url('src/assets/park.jpg')"
+        'buyOrExcahnge': "url('./src/assets/white park.jpg')",
+        'clientsSay': "url('./src/assets/tier.jpg')",
+        'callUs': "url('./src/assets/buyOrChange.jpg')",
+        'footer': "url('./src/assets/Component 1.png')",
+        'appointment': "url('./src/assets/park.jpg')"
       },
       screens: { 
         'mini-md': '690px',
