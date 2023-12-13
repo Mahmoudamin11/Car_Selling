@@ -4,55 +4,55 @@ const FreshLaunches = () => {
     const [carsData, setCarsData] = useState([{
         "brand": "Toyota",
         "model": "Avalon",
-        "img" : "/src/assets/freshLaunches/Toyota Avalon.png",
+        "img" : "url('/src/assets/freshLaunches/Toyota Avalon.png')",
         "price": "15000$",
         "year": 2023
       },
       {
         "brand": "Toyota",
         "model": "GR86",
-        "img" : "/src/assets/freshLaunches/toyota gr86.png",
+        "img" : "url('/src/assets/freshLaunches/toyota gr86.png')",
         "price": "35000$",
         "year": 2022
       },
       {
         "brand": "Toyota",
         "model": "Highlander",
-        "img" : "/src/assets/freshLaunches/toyota highlander.webp",
+        "img" : "url('/src/assets/freshLaunches/toyota highlander.webp')",
         "price": "22000$",
         "year": 2017
       },
       {
         "brand": "Toyota",
         "model": "Crown",
-        "img" : "/src/assets/freshLaunches/toyota crown.webp",
+        "img" : "url('/src/assets/freshLaunches/toyota crown.webp')",
         "price": "33000$",
         "year": 2023
       },{
         "brand": "Audi",
         "model": "Q7",
-        "img" : "/src/assets/freshLaunches/audi q7.png",
+        "img" : "url('/src/assets/freshLaunches/audi q7.png')",
         "price": "25000$",
         "year": 2023
       },
     {
         "brand": "Audi",
         "model": "T/T",
-        "img" : "/src/assets/freshLaunches/audi tt.png",
+        "img" : "url('/src/assets/freshLaunches/audi tt.png')",
         "price": "27000$",
         "year": 2023
       },
     {
         "brand": "Audi",
         "model": "Q8",
-        "img" : "/src/assets/freshLaunches/audi q8.webp",
+        "img" : "url('/src/assets/freshLaunches/audi q8.webp')",
         "price": "25000$",
         "year": 2020
       },
     {
         "brand": "Audi",
         "model": "T/T",
-        "img" : "/src/assets/freshLaunches/audi tt.png",
+        "img" : "url('/src/assets/freshLaunches/audi tt.png')",
         "price": "27000$",
         "year": 2023
       }])
