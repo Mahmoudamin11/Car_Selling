@@ -1,10 +1,10 @@
 import {useState} from 'react';
 const ClientsSay = () => {
     const [clients, setClients] = useState([
-        {'img': './src/assets/humans/pic1.png', 'name': 'Thomas A.', 'address': 'Luxomborg'},
-        {'img': './src/assets/humans/pic2.png', 'name': 'Jhon D.', 'address': 'Las vegas'},
-        {'img': './src/assets/humans/pic3.png', 'name': 'Daniel T.', 'address': 'California'},
-        {'img': './src/assets/humans/pic4.png', 'name': 'George H.', 'address': 'London'},
+        {'img': '/src/assets/humans/pic1.png', 'name': 'Thomas A.', 'address': 'Luxomborg'},
+        {'img': '/src/assets/humans/pic2.png', 'name': 'Jhon D.', 'address': 'Las vegas'},
+        {'img': '/src/assets/humans/pic3.png', 'name': 'Daniel T.', 'address': 'California'},
+        {'img': '/src/assets/humans/pic4.png', 'name': 'George H.', 'address': 'London'},
     ]);
   return (
     <div className=' w-full mx-auto relative max-[450px]:bg-center bg-clientsSay bg-cover'>
