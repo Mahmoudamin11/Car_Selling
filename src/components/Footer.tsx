@@ -10,14 +10,15 @@ const Footer = () => {
       setWidth(window.innerWidth);
     });
   return (
-    <div className="bg-footer relative max-sm:py-6 py-28 px-5 bg-center bg-cover gap-5 w-full grid grid-cols-3  max-sm:grid-cols-1 place-items-center place-content-end">
+    // gap-24 max-sm:gap-5
+    <div className="bg-footer relative max-783:py-6 py-28 px-5 bg-center bg-cover max-783:gap-10 min-800:gap-5 max-800:gap-2 w-full grid grid-cols-[40%_30%_30%]   max-783:grid-cols-1 place-items-center">
         <div className="z-20 ">
             {/* sm:text-2xl text-3xl lg:text-4xl */}
             <h1 className="mb-4 max-sm:mb-1 max-sm:mt-0 max-sm:text-2xl text-4xl  -mt-[5px] text-white font-bold">RIDE IT</h1>
-            <p className="text-gray max-sm:text-xs relative max-lg:text-sm">Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Nulla aliquet porttitor lacus luctus. Interdum varius sit amet Vel quam elementum pulvinar etiam non quam</p>
+            <p className="text-gray lg:text-lg max-sm:text-xs relative max-lg:text-sm">Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Nulla aliquet porttitor lacus luctus. Interdum varius sit amet Vel quam elementum pulvinar etiam non quam</p>
         </div>
 
-        {width > 640 &&<div className="text-gray   max-sm:m-0  max-lg:text-sm z-20 ">
+        {width > 783 &&<div className="text-gray   max-sm:m-0  max-lg:text-sm z-20 ">
             <h4 className="mb-4 max-sm:mb-2    text-white font-bold">Contact Info</h4>
             <div className=" max-sm:text-xs">
                 <p className="relative mb-1 z-20 ">Dev Number: <span className="text-white">{phoneNumber}</span></p>
@@ -25,7 +26,8 @@ const Footer = () => {
                 <p className="relative  z-20">Email: <a className=" text-white transition-all duration-150 hover:text-gray" target="_blank" href="https://myaccount.google.com/?hl=en&utm_source=OGB&utm_medium=act&pli=1">{email}</a></p>
             </div>
         </div>}
-        {width > 640 &&<div className="text-gray  max-sm:m-0 max-lg:text-sm z-20  ">
+        {/* ml-[50%] */}
+        {width > 783 &&<div className="text-gray   max-sm:m-0 max-lg:text-sm z-20  ">
             <h4 className="mb-4 max-sm:mb-2    text-white font-bold">Service Hour</h4>
             <div className=" max-sm:text-xs">
                 <p className="relative mb-1 z-20">Monday-Friday: <span className="text-white">{workingHours}</span></p>
@@ -34,7 +36,7 @@ const Footer = () => {
             </div>
         </div>}
 
-        {width <= 640 && <div className="max-sm:flex max-sm:justify-evenly max-500:justify-between max-sm:w-full">
+        {width <= 783 && <div className="flex justify-evenly max-440:justify-between w-full">
             <div className="text-gray sm:m-auto   max-lg:text-sm z-20 ">
                 <h4 className="mb-4 max-sm:mb-1    text-white font-bold">Contact Info</h4>
                 <div className=" max-sm:text-xs">
